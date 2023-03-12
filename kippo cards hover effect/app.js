@@ -30,12 +30,12 @@ function handleClickNo() {
     return setStatusNo(currentCards, nextCards);
   }
   if (currentCardIndex === 2) {
-    nextCards = document.querySelector(`[data-num="3"]`);
+    const nextCards = document.querySelector(`[data-num="3"]`);
     currentCardIndex = 3;
     return setStatusNo(currentCards, nextCards);
   }
   if (currentCardIndex === 3) {
-    nextCards = document.querySelector(`[data-num="1"]`);
+    const nextCards = document.querySelector(`[data-num="1"]`);
     currentCardIndex = 1;
     return setStatusNo(currentCards, nextCards);
   }
@@ -50,12 +50,12 @@ function handleClickYes() {
     return setStatusYes(currentCards, nextCards);
   }
   if (currentCardIndex === 2) {
-    nextCards = document.querySelector(`[data-num="1"]`);
+    const nextCards = document.querySelector(`[data-num="1"]`);
     currentCardIndex = 1;
     return setStatusYes(currentCards, nextCards);
   }
   if (currentCardIndex === 3) {
-    nextCards = document.querySelector(`[data-num="2"]`);
+    const nextCards = document.querySelector(`[data-num="2"]`);
     currentCardIndex = 2;
     return setStatusYes(currentCards, nextCards);
   }
