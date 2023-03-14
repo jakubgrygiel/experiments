@@ -30,12 +30,12 @@ function getMousePos(e) {
 }
 
 function getImagesPosition() {
-  let padding = (windowX - imagesWrapperWidth) / 2;
+  let padding = (windowX - imagesWrapperWidth + 500) / 2;
   if (mousePosX < padding) {
     movePos = 0;
     return;
   }
-  if (mousePosX > windowX - padding * 2) {
+  if (mousePosX > windowX - padding) {
     movePos = imagesSliderWidth - imagesWrapperWidth;
     return;
   }
@@ -58,7 +58,6 @@ body.addEventListener("mousemove", (e) => {
 window.addEventListener("resize", () => {
   imagesWrapperWidth = imagesWrapper.clientWidth;
   windowX = window.innerWidth;
-  h2wr.textContent = `${imagesWrapperWidth} / ${windowX}`;
 });
 
 images.forEach((image) => {
