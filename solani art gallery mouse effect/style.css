@@ -24,11 +24,32 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 32px;
-    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.cursor-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    padding-bottom: 3px;
+    font-size: 24px;
+    font-weight: 300;
     background-color: white;
     border-radius: 16px;
     pointer-events: none;
+    color: white;
+    transform: scale(0.4);
+    transition: transform 0.3s ease;
+}
+
+.cursor-visual--over-image {
+    color: black;
+    transform: scale(1);
 }
 
 .images-wrapper {
