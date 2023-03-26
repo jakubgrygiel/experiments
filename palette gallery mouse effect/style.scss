@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: hsl(0, 0%, 5%);
+    overflow: hidden;
+}
+
+.gallery-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+.gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150%;
+    width: 150%;
+    border: 3px solid blue;
+
+    // img {
+    //     height: 120%;
+    // }
+    .pic {
+        position: absolute;
+        height: 180px;
+        width: 120px;
+        background-color: rgb(47, 45, 142);
+        border-radius: 8px;
+    }
+
+    .pic:nth-child(2) {
+        top: 20px;
+        left: 20px;
+        background-color: rgb(142, 45, 45);
+    }
+
+    .pic:nth-child(3) {
+        top: 190px;
+        left: 500px;
+        background-color: rgb(103, 45, 142);
+    }
+
+    .pic:nth-child(4) {
+        top: 120px;
+        left: 280px;
+        background-color: rgb(142, 97, 45);
+    }
+
+    .pic:nth-child(5) {
+        top: 340px;
+        left: 60px;
+        background-color: rgb(66, 45, 142);
+    }
+
+    .pic:nth-child(6) {
+        bottom: 120px;
+        left: 200px;
+        background-color: rgb(142, 136, 45);
+    }
+
+    .pic:nth-child(7) {
+        top: 490px;
+        right: 20px;
+        background-color: rgb(45, 142, 64);
+    }
+
+    .pic:nth-child(8) {
+        bottom: 50px;
+        right: 50px;
+        background-color: rgb(45, 110, 142);
+    }
+}
