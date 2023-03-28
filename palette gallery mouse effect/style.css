@@ -10,7 +10,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: white;
-  background-color: hsl(0deg, 0%, 5%);
+  background-color: hsl(0, 0%, 5%);
   overflow: hidden;
 }
 
@@ -37,43 +37,108 @@ body {
 }
 .gallery .pic {
   position: absolute;
-  height: 180px;
-  width: 120px;
+  height: 8%;
+  width: 5%;
   background-color: rgb(47, 45, 142);
   border-radius: 8px;
 }
+.gallery .pic:nth-child(1) {
+  top: 3%;
+  left: 5%;
+  background-color: rgb(45, 106, 142);
+}
 .gallery .pic:nth-child(2) {
-  top: 20px;
-  left: 20px;
+  top: 32%;
+  left: 11%;
   background-color: rgb(142, 45, 45);
 }
 .gallery .pic:nth-child(3) {
-  top: 190px;
-  left: 500px;
+  top: 16%;
+  left: 24%;
   background-color: rgb(103, 45, 142);
 }
 .gallery .pic:nth-child(4) {
-  top: 120px;
-  left: 280px;
+  top: 28%;
+  left: 56%;
   background-color: rgb(142, 97, 45);
 }
 .gallery .pic:nth-child(5) {
-  top: 340px;
-  left: 60px;
+  top: 62%;
+  left: 3%;
   background-color: rgb(66, 45, 142);
 }
 .gallery .pic:nth-child(6) {
-  bottom: 120px;
-  left: 200px;
+  top: 42%;
+  left: 21%;
   background-color: rgb(142, 136, 45);
 }
 .gallery .pic:nth-child(7) {
-  top: 490px;
-  right: 20px;
+  top: 58%;
+  left: 41%;
   background-color: rgb(45, 142, 64);
 }
 .gallery .pic:nth-child(8) {
-  bottom: 50px;
-  right: 50px;
+  top: 82%;
+  left: 72%;
+  background-color: rgb(45, 110, 142);
+}
+.gallery .pic:nth-child(9) {
+  top: 90%;
+  left: 23%;
+  background-color: rgb(45, 106, 142);
+}
+.gallery .pic:nth-child(10) {
+  top: 82%;
+  left: 11%;
+  background-color: rgb(142, 45, 45);
+}
+.gallery .pic:nth-child(11) {
+  top: 71%;
+  left: 24%;
+  background-color: rgb(103, 45, 142);
+}
+.gallery .pic:nth-child(12) {
+  top: 80%;
+  left: 56%;
+  background-color: rgb(142, 97, 45);
+}
+.gallery .pic:nth-child(13) {
+  top: 62%;
+  left: 60%;
+  background-color: rgb(66, 45, 142);
+}
+.gallery .pic:nth-child(14) {
+  top: 76%;
+  left: 89%;
+  background-color: rgb(142, 136, 45);
+}
+.gallery .pic:nth-child(15) {
+  top: 12%;
+  left: 81%;
+  background-color: rgb(45, 142, 64);
+}
+.gallery .pic:nth-child(16) {
+  top: 56%;
+  left: 80%;
+  background-color: rgb(45, 110, 142);
+}
+.gallery .pic:nth-child(17) {
+  top: 12%;
+  left: 48%;
+  background-color: rgb(66, 45, 142);
+}
+.gallery .pic:nth-child(18) {
+  top: 36%;
+  left: 73%;
+  background-color: rgb(142, 136, 45);
+}
+.gallery .pic:nth-child(19) {
+  top: 30%;
+  left: 36%;
+  background-color: rgb(45, 142, 64);
+}
+.gallery .pic:nth-child(20) {
+  top: 29%;
+  left: 88%;
   background-color: rgb(45, 110, 142);
 }/*# sourceMappingURL=style.css.map */

@@ -2,15 +2,10 @@ const body = document.querySelector("body");
 const galleryWrapper = document.querySelector(".gallery-wrapper");
 const gallery = document.querySelector(".gallery");
 
-const cursorTiming = {
-  duration: 300,
-  fill: "forwards",
-  easing: "linear",
-};
 const animTiming = {
-  duration: 1000,
+  duration: 3000,
   fill: "forwards",
-  easing: "ease",
+  easing: "cubic-bezier(.36,.75,.35,.99)",
 };
 
 let mousePosX;
