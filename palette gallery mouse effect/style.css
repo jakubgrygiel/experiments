@@ -21,7 +21,6 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  border: 1px solid red;
 }
 
 .gallery {
@@ -33,7 +32,6 @@ body {
   align-items: center;
   height: 150%;
   width: 150%;
-  border: 3px solid blue;
 }
 .gallery .pic {
   cursor: pointer;
