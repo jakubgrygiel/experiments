@@ -24,7 +24,6 @@ function getMousePos(e) {
 function getImagesPosition() {
   let posX = mousePosX / galleryWrapperWidth;
   let posY = mousePosY / galleryWrapperHeight;
-  //   console.log(posX, posY);
   movePosX = (galleryWidth - galleryWrapperWidth) * posX;
   movePosY = (galleryHeight - galleryWrapperHeight) * posY;
   console.log(movePosX, movePosY);
@@ -44,12 +43,3 @@ window.addEventListener("resize", () => {
   galleryWrapperWidth = galleryWrapper.clientWidth;
   galleryWrapperHeight = galleryWrapper.clientWidth;
 });
-
-// images.forEach((image) => {
-//   image.addEventListener("mouseenter", (e) => {
-//     cursorVisual.classList.add("cursor-visual--over-image");
-//   });
-//   image.addEventListener("mouseleave", (e) => {
-//     cursorVisual.classList.remove("cursor-visual--over-image");
-//   });
-// });
